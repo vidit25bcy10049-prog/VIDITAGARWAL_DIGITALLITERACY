@@ -1,0 +1,17 @@
+Victim Profile: "Mr. A," a tech-savvy professional familiar with digital payments.
+
+Date: Early 2026
+
+1. The Incident (The Hook)
+Mr. A received a call from an individual claiming to be a customer service representative from a popular e-commerce platform where Mr. A had recently made a purchase. The "representative" knew the exact item purchased and the delivery date (likely obtained via a data leak or scraping).
+
+2. The Execution (The Trick)
+The Narrative: The caller claimed there was a "double-billing error" and a refund of ₹1,200 was being processed.
+
+The Trap: Instead of a standard "Collect Request" (which many users now recognize as a scam), the fraudster sent a malicious QR code via WhatsApp, claiming it was a "Refund Voucher" that needed to be scanned to "receive" the money.
+
+The Twist: When Mr. A scanned the code, his UPI app prompted him to enter his PIN. The fraudster stayed on the call, applying "time pressure" by stating the voucher would expire in 60 seconds. In the rush, Mr. A entered his PIN, and instead of receiving ₹1,200, ₹12,000 was debited from his account.
+
+3. The Aftermath (The Siphoning)
+The stolen funds were not kept in one place. Using a technique called "Micro-Splitting," the fraudster's system immediately broke the ₹12,000 into 20 smaller transactions of ₹600 each, sent to different "Mule Accounts." This automated process made it nearly impossible for the bank’s traditional "high-value" filters to trigger an immediate freeze.
+Prevention & Mitigation StrategiesInstitutional Safeguards (NPCI/RBI)The 15-Second Rule: NPCI now mandates a 15-second response time for transactions, but has integrated Real-Time Risk Scoring that flags first-time high-value transfers to new beneficiaries.Display Names: Since June 2025, UPI apps must show the bank-registered name of the recipient (not just their nickname), reducing "spoofing."API Caps: Daily limits on "Balance Inquiries" and "Account Discovery" have been slashed to prevent bots from testing stolen credentials.Individual Best PracticesThe "PIN is for Giving" Rule: Never enter your UPI PIN to receive money. Refunds and incoming transfers never require a PIN.Verify the Name: Always look for the green "Verified" badge and check if the name displayed matches the person you intend to pay.The 1930 Helpline: If fraud occurs, the "Golden Hour" (first 2 hours) is critical. Calling 1930 or reporting on cybercrime.gov.in can often freeze the funds in the mule account before they are withdrawn.
